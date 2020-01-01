@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Valeshka's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Contact</title>
+
     <style>
+section{
+    position: relative;
+    left: 80px; top: 200px;
+    background-color:  #ffffff;
+    width: 860px;
+}
+
         article {
             position:relative; left:80px; top:200px;
             background-color: #ffffff;
@@ -55,10 +62,12 @@ position: fixed;
         column-count: 3;
         position:relative; left:80px;
         width: 290px;
+
     }
     </style>
 </head>
-<body style="background-image: url(https://img.freepik.com/free-vector/blue-abstract-acrylic-brush-stroke-textured-background_53876-86373.jpg?size=626&ext=jpg); background-repeat: no-repeat;
+<body>
+    <body style="background-image: url(https://img.freepik.com/free-vector/blue-abstract-acrylic-brush-stroke-textured-background_53876-86373.jpg?size=626&ext=jpg); background-repeat: no-repeat;
 background-attachment: fixed; background-size: cover;">
     <nav >
         <div id="name"style="color: white; background-color: #4aaaa5;">Valeshka</div>
@@ -77,23 +86,21 @@ background-attachment: fixed; background-size: cover;">
 
             </nav>
     <section>
-<article style="width: 960px;">
-    <h1>About Me</h1>
-    <hr >
-
-    <img src="https://media.licdn.com/dms/image/C4D03AQHXA3valiwzdQ/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=aMKhzvbfUvUYnoKZMWoML9v1cyNIsYxtpsh4Lccr3W8" alt=""><p>Hello there! My name is Valeshka Young Sang. 
-        I am a Web Developer with a purpose. I am from Brooklyn New York and now living in Kansas City.
-         I love to solve complicated problems and have a mind for code. I am able to build, maintain and 
-         update websites with a unique technique.</p> <p> I am interested in making a new way to 
-             communicate for children and adults that are gifted with autism. </p>
-</article>
-
+    <h1>Contact</h1>
+    <hr>
+    <form action="contact.html"></form>
+    Name: <input type="text" name="FirstName" value="John Smith"> <br>
+    Emial: <input type="text" name="Email" id="email" value="example@gmail.com"> <br>
+    <textarea name="" id="text" cols="30" rows="10"></textarea>
+    <input type="submit" value="Submit">
+</form>
 
     </section>
+
     <hr id="hr1">
-    <footer >
-        <p>Copyright ©</p>
-    </footer  >
+<footer >
+    <p>Copyright ©</p>
+</footer  >
 
 </body>
 </html>
